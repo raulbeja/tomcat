@@ -12,7 +12,7 @@ sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 
 # Descargar Tomcat
 cd /home/vagrant
-curl -O --progress-bar https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.0/bin/apache-tomcat-10.1.0.tar.gz
+curl -O --progress-bar https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.0/bin/apache-tomcat-10.1.1.tar.gz
 
 #Extraer en /opt/tomcat
 sudo mkdir /opt/tomcat
