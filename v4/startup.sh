@@ -1,7 +1,6 @@
 # Copiar servicio y recargar
-cd /vagrant
-sudo cp tomcatconfig/tomcat1.service /etc/systemd/system/
-sudo cp tomcatconfig/tomcat2.service /etc/systemd/system/
+sudo cp /vagrant/tomcatconfig/tomcat1.service /etc/systemd/system/
+sudo cp /vagrant/tomcatconfig/tomcat2.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl start tomcat1
 sudo systemctl enable tomcat1

@@ -3,18 +3,18 @@ echo "Instalando Openjdk11..."
 sudo apt-get install -y openjdk-11-jdk
 sudo apt-get -y install curl
 
-echo "Preparando e Instalando Tomcat 9..."
+echo "Preparando e Instalando Tomcat 10..."
 # Añadir usuario a grupo tomcat
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 
 # Descargar Tomcat
 cd /home/vagrant
-curl -O --progress-bar https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.1/bin/apache-tomcat-10.1.1.tar.gz
+curl -O --progress-bar https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.tar.gz
 
 #Extraer en /opt/tomcat
 sudo mkdir /opt/tomcat
-sudo tar xzvf apache-tomcat-10*tar.gz -C /opt/tomcat --strip-components=1
+sudo tar xzvf apache-tomcat-*tar.gz -C /opt/tomcat --strip-components=1
 
 # Asignar a grupo de usuarios tomcat
 cd /opt/tomcat
