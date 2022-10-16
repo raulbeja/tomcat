@@ -3,7 +3,7 @@ echo "Instalando Openjdk11..."
 sudo apt-get install -y openjdk-11-jdk
 sudo apt-get -y install curl
 
-echo "Preparando e Instalando Tomcat 10..."
+echo "Preparando e Instalando Tomcat ..."
 # Añadir usuario a grupo tomcat
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
