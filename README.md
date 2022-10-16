@@ -1,20 +1,20 @@
 # Probando Tomcat
 
-V1 Ubuntu + Tomcat
+##V1 Ubuntu + Tomcat
 
    Habilitado usuario "tomcat" password "tomcat" con roles para manager
 
    Desplegada aplicación psi-probe (https://github.com/psi-probe/psi-probe.git) "/probe"
 
 
-V2 Ubuntu + MariaDB + Tomcat
+##V2 Ubuntu + MariaDB + Tomcat
 
    Habilitado usuario "admin" password "admin" (encriptado) con roles para manager
 
    Desplegada aplicación psi-probe (https://github.com/psi-probe/psi-probe.git) "/probe"
 
 
-V3 Ubuntu + Apache + MariaDB + Tomcat
+##V3 Ubuntu + Apache + MariaDB + Tomcat
 
    Habilitados usuarios de V1 y V2.
 
@@ -23,7 +23,7 @@ V3 Ubuntu + Apache + MariaDB + Tomcat
    Desplegada aplicación psi-probe (https://github.com/psi-probe/psi-probe.git) "/probe"
 
 
-V4 Ubuntu + Apache + Cluster Tomcat modo Balanceador
+##V4 Ubuntu + Apache + Cluster Tomcat modo Balanceador
 
    Habilitados usuarios de V1 y V2.
 
@@ -34,7 +34,7 @@ V4 Ubuntu + Apache + Cluster Tomcat modo Balanceador
    Desplegada aplicación psi-probe (https://github.com/psi-probe/psi-probe.git) "/probe"
 
 
-V5 Ubuntu + Apache + Cluster Tomcat modo Balanceador + mantenimiento de session
+##V5 Ubuntu + Apache + Cluster Tomcat modo Balanceador + mantenimiento de session
 
    Habilitados usuarios de V1 y V2.
 
